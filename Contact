@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - India Emergency Helplines</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>Essential Helpline Numbers in India</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Hackathon.html">Emergency Steps</a></li>
+
+        </ul>
+        <a href="tel:100">
+        <button class="emergency-call">Emergency Call</button></a>
+    </nav>
+
+    <section class="banner">
+        <img src="ayurveda-banner.png" alt="Arogya Sutra: Health Care System">
+    </section>
+
+    <section class="helpline-section">
+        <h2>Emergency Helpline Numbers</h2>
+        <ul class="helplines">
+            <li>
+                <img src="police-icon.png" alt="Police Icon">
+                <a href="tel:100">Police Helpline: 100</a>
+            </li>
+            <li>
+                <img src="fire-icon.png" alt="Fire Icon">
+                <a href="tel:101">Fire Brigade: 101</a>
+            </li>
+            <li>
+                <img src="ambulance-icon.png" alt="Ambulance Icon">
+                <a href="tel:102">Ambulance: 102</a>
+            </li>
+            <li>
+                <img src="disaster-icon.png" alt="Disaster Icon">
+                <a href="tel:108">Disaster Management: 108</a>
+            </li>
+        </ul>
+
+        <h2>Other Important Helplines</h2>
+        <ul class="helplines">
+            <li>
+                <img src="women-icon.png" alt="Women Helpline Icon">
+                <a href="tel:1091">Women Helpline (All India): 1091</a>
+            </li>
+            <li>
+                <img src="child-icon.png" alt="Child Helpline Icon">
+                <a href="tel:1098">Child Helpline: 1098</a>
+            </li>
+            <li>
+                <img src="tourist-icon.png" alt="Tourist Helpline Icon">
+                <a href="tel:1363">Tourist Helpline: 1363</a>
+            </li>
+            <li>
+                <img src="railway-icon.png" alt="Railway Icon">
+                <a href="tel:139">Railway Enquiry: 139</a>
+            </li>
+            <li>
+                <img src="cybercrime-icon.png" alt="Cybercrime Icon">
+                <a href="tel:155260">Cyber Crime Helpline: 155260</a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
