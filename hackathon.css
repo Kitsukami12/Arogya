@@ -1,0 +1,104 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e3cc; /* Light earthy color */
+    color: #4b2b16;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d5a573; /* Warm brown background */
+    color: #4b2b16;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e4c39e; /* Lighter brown for navigation */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b512f;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6f4e37;
+    color: white;
+}
+
+.emergency-call {
+    padding: 10px 15px;
+    background-color: #d9534f; /* Red color for emergency */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.emergency-call:hover {
+    background-color: #c9302c;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner img {
+    max-width: 80%;  /* Shrink the image size to be proportional */
+    height: auto;
+    border-radius: 8px;
+}
+
+.sos-button{
+    font-size:large;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner img {
+        max-width: 100%;  /* Allow image to adjust to screen size */
+    }
+}
